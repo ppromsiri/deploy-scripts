@@ -13,10 +13,10 @@ DEPLOY_BASEDIR="/bitnami/jenkins/1001/deploys"
 
 #SOURCE MASTER
 SRC_MASTER_DIR="/bitnami/jenkins/sourcemaster"
-SRC_MASTER_URL="http://<your-jenkins-server-ip>:8080"
+SRC_MASTER_URL="http://52.221.226.183:8080"
 
 #SERVER
-SERVERS="ubuntu@<your-app-server-ip>"
+SERVERS="ubuntu@54.255.249.255"
 SERVER_DOCKER_PATH="/var/dockers/$SITE_NAME"
 SERVER_SOURCE_PATH="/var/www/$SITE_NAME"
 
